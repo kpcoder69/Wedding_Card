@@ -181,7 +181,7 @@
 
 // Timer function
 function updateTimer() {
-    var countDownDate = new Date("December 7, 2024 11:27:15").getTime();
+    var countDownDate = new Date("April 30, 2025 11:27:15").getTime();
     var now = new Date().getTime();
     var timeLeft = countDownDate - now;
 
@@ -211,8 +211,8 @@ $(document).ready(function() {
 function addToCalendar(e) {
     e.preventDefault();
     
-    var startDate = new Date('2024-12-07T10:00:00');
-    var endDate = new Date('2024-12-07T22:00:00');
+    var startDate = new Date('2025-04-30T10:00:00');
+    var endDate = new Date('2025-04-30T22:00:00');
     
     var calendarEvent = {
         title: "Amit & Apurvaa's Wedding",
