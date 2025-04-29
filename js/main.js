@@ -181,7 +181,7 @@
 
 // Timer function
 function updateTimer() {
-    var countDownDate = new Date("April 30, 2025 11:27:15").getTime();
+    var countDownDate = new Date("April 30, 2025 19:00:15").getTime();
     var now = new Date().getTime();
     var timeLeft = countDownDate - now;
 
